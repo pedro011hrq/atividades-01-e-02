@@ -1,0 +1,41 @@
+.supernova {
+    background-image: url("gala.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+body {
+    background: none;
+}
+/*.supernova, body {
+    background: none;
+}*/
+.form-all {
+    background: none !important;
+    box-shadow: none;
+}
+body, .form-all {
+    margin-top: 0;
+}
+.form-header-group, [data-type="control_head"] {
+    background-color: #c9daf8;
+}
+.form-subHeader {
+    color: #00b000 !important;
+}
+.form-sub-label {
+    color: #ffb21d;
+}
+.form-line-active {
+    background: #ccffcc;
+}
+.form-required {
+    color: cyan !important;
+}
+.form-all {
+    margin: 0;
+}
